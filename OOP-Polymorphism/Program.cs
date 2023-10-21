@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Cirkel newCirkel = new Cirkel();
-            Console.WriteLine("Area Cirkel: " + newCirkel.Area());
+            Console.WriteLine("Area Cirkel: " + Math.Round(newCirkel.Area(),2));
         }
     }
 }
