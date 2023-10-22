@@ -12,7 +12,7 @@ namespace OOP_Polymorphism
 
         public Cirkel()
         {
-            Radius = 4;
+            Radius = 4.0;
         }
         internal override double Area()
         {

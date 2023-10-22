@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOP_Polymorphism
 {
-    internal abstract class Geometri
+    internal class Geometri
     {
-        internal abstract double Area();
+        internal virtual double Area()
+        {
+            return 0.0;
+        }
     }
 }
